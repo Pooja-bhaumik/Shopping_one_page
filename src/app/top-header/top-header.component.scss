@@ -1,13 +1,8 @@
 @import "../../-variables.scss";
+@import "../../mixin.scss";
 .top-menu {
   li {
-    display: inline-block;
-    height: 30px;
-    width: 30px;
-    background: #000;
-    border-radius: 50px;
-    text-align: center;
-    margin-right: 2px;
+    @include list_social_icon;
   }
   a {
     color: #ffffff;

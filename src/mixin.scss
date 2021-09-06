@@ -27,3 +27,17 @@
   padding: 6px 20px;
   border: 2px solid #000;
 }
+@mixin about_same_head {
+  font-size: 18px;
+  font-weight: 300;
+  color: #808080;
+}
+@mixin list_social_icon {
+  display: inline-block;
+  height: 30px;
+  width: 30px;
+  background: #000;
+  border-radius: 50px;
+  text-align: center;
+  margin-right: 2px;
+}
